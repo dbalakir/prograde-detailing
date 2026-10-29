@@ -11,3 +11,9 @@ Static site for Pro Grade Detailing (Rob Vernola, Silver Spring MD). No build st
 Booking: https://cal.callwhale.com/progradedetailing · Phone: (301) 888-6865
 
 Preview locally: `python3 -m http.server` from this folder (paths are root-relative).
+
+## Hosting
+
+Live preview on GitHub Pages: https://dbalakir.github.io/prograde-detailing/
+
+Pages use relative paths so they work under the `/prograde-detailing/` subpath and on a custom domain. `404.html` is the exception: GitHub serves it at any URL, so its links are prefixed with `/prograde-detailing/`. When the custom domain goes live, change those back to `/`.
